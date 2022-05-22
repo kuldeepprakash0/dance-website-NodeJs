@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block style 
+    style
+      include ../static/style.css
+block content
+    section#introSection
+        div Welcome to our Dance Academy 
+        div.small learn dance with us
+    section#ourmission 
+        h1 Our Mission
+        div.missionContent
+            div.card 
+                h3 Dance Perfaction
+                div.card-box
+                    div.card-img 
+                        img(src="/static/img/1.png", alt="card-1 img")
+                    div.card-content
+                        p this is content of card 
+                        |this is content of card 
+                        |this is content of card 
+                        |this is content of card 
+                        
+            div.card 
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img 
+                        img(src="/static/img/2.png", alt="card-2 img")
+                    div.card-content
+                        p this is content of card 
+                        |this is content of card 
+                        |this is content of card 
+                        |this is content of card 
+            div.card 
+                h3 Expert Teaching
+                div.card-box
+                    div.card-img 
+                        img(src="/static/img/3.png", alt="card-3 img")
+                    div.card-content
+                        p this is content of card 
+                        |this is content of card 
+                        |this is content of card 
+                        |this is content of card 
+    section#sponsorSection 
+        |our sponsor
+        div.sponser 
+            img(src="/static/img/logo1.png", alt="sp img")
+            img(src="/static/img/logo2.png", alt="sp img")
+            img(src="/static/img/logo3.png", alt="sp img")
+            img(src="/static/img/logo4.png", alt="sp img")
+    
